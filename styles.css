@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navegation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navegation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navegation .logo img {
+    width: 80px;
+
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    font-family: "Dms sans", sans-serif;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Dms sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library__button .fa-solid {
+    font-size: 20px;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 16px 20px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color:#fff;
+}
+
+.section-playlist .title {
+    font-weight: 700;
+}
+
+.section-playlist .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+    
