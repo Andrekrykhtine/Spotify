@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/var.css">
+    <link rel="stylesheet" href="./src/css/sidebar_footer.css">
+    <link rel="stylesheet" href="./src/css/main-content.css">
 
     <script src="https://kit.fontawesome.com/4f077d5d34.js" crossorigin="anonymous"></script>
 </head>
@@ -68,12 +70,38 @@
             </div>
         </nav>
     </div>
-    
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/images/icons/small-left.png" alt="seta para esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/images/icons/small-right.png" alt="seta para direita">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <img src="./src/images/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <footer>
         <div class="footer__content">
             <div class="text">
                 <h2>TESTAR O PREMIUM DE GRAÇA</h2>
-                <p>Inscreva-se para curtir musica e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+                <p>Inscreva-se para curtir musica e podcasts só com alguns anúncios. Não precisa de cartão de crédito.
+                </p>
             </div>
             <div>
                 <button class="footer__button">Inscreva-se grátis</button>

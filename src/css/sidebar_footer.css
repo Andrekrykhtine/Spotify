@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -39,7 +40,6 @@ body {
 }
 
 .sidebar nav ul li a {
-    font-family: "Dms sans", sans-serif;
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
@@ -72,7 +72,6 @@ body {
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "Dms sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -111,7 +110,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color:#fff;
-    font-family:"Dms sans", sans-serif;
 }
 
 .section-playlist .title {
@@ -131,7 +129,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "Dms sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -179,14 +176,13 @@ body {
     height:80px;
     align-items: center;
     color: #fff;
-    background : linear-gradient(to right, #cc2fa8, #00c8ec);
+    background : linear-gradient(to right, #cc2fa8, #008eec);
 }
 
 .footer__content .text{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: "Dms sans", sans-serif;
     font-size: 14px;
     margin: 20px; 
 }
@@ -198,7 +194,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "Dms sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
