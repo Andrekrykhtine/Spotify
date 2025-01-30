@@ -1,40 +1,57 @@
  :root {
      /*font*/
      --font-dm-sans: 'DM Sans', sans-serif;
-     /*color*/
-     --bg-icon: #131313 --bg-arrow-color: rbga(0, 0, 0, 7) --max-width: 80vw;
+     /* Layout - Dimensões */
+     --max-width: 80vw;
      --height-full: 100vh;
      --margin-left: 320px;
      --margin-right: 56px;
+     --footer-height: 80px;
+
+     /* Espaçamento */
      --padding-small: 12px;
      --padding-medium: 16px;
      --margin-small: 10px;
-     --border-radius: 8px;
-     --bg-color-dark: #121212;
-     --bg-color-medium: #242424;
-     --color-text-light: #fff;
-     --color-text-gray: #a7a7a7;
-     --color-text-dark: #000;
-     --font-size-medium: 16px;
-     --font-weight-bold: 700;
-     --border-radius-circle: 50%;
-     --border-radius-pill: 40px;
-     --icon-size: 16px;
-     --button-width: 100px;
-     --button-height: 48px;
-     --color-text-gray-light: #b3b3b3;
-     --bg-color-black: #000;
-     --border-color-gray: #878787;
-     --gradient-footer: linear-gradient(to right, #cc2fa8, #008eec);
-     --footer-height: 80px;
-     --font-size-small: 10px;
-     --font-size-regular: 14px;
-     --font-size-large: 20px;
-     --font-weight-medium: 500;
-     --font-weight-semibold: 600;
      --spacing-xxs: 4px;
      --spacing-xs: 8px;
      --spacing-s: 10px;
      --spacing-m: 20px;
      --spacing-l: 25px;
+     --spacing-xl: 35px;
+     --spacing-xxl: 40px;
+     --spacing-xxxl: 60px;
+
+     /* Border Radius */
+     --border-radius: 8px;
+     --border-radius-circle: 50%;
+     --border-radius-pill: 40px;
+
+     /* Cores */
+     --bg-color-dark: #121212;
+     --bg-color-medium: #242424;
+     --bg-color-black: #000;
+     --bg-icon: #000;
+     --bg-arrow-color: #000;
+     --color-text-light: #fff;
+     --color-text-gray: #a7a7a7;
+     --color-text-gray-light: #b3b3b3;
+     --color-text-dark: #000;
+     --border-color-gray: #878787;
+     --gradient-footer: linear-gradient(to right, #cc2fa8, #008eec);
+
+     /* Tipografia */
+     --font-size-small: 10px;
+     --font-size-regular: 14px;
+     --font-size-medium: 16px;
+     --font-size-large: 20px;
+     --font-size-xl: 25px;
+     --font-size-xxl: 40px;
+     --font-weight-medium: 500;
+     --font-weight-semibold: 600;
+     --font-weight-bold: 700;
+
+     /* Elementos UI */
+     --icon-size: 16px;
+     --button-width: 100px;
+     --button-height: 48px;
  }
