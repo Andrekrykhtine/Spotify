@@ -8,7 +8,8 @@ function requestApi(searchTerm) {
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResult(result))
-}
+        
+    }
 
 function displayResult(result) {
     resultPlaylists.classList.add('hidden');
@@ -30,6 +31,8 @@ document.addEventListener('input', () => {
         resultArtist.classList.remove('hidden');
         return;
     }
+
+    requestApi(searchTerm);
 });
 
 
